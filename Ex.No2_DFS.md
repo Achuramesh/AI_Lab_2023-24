@@ -1,5 +1,5 @@
 # Ex.No: 2  Implementation of Depth First Search
-### DATE: 18/10/2023                                                                           
+### DATE:                                                                           
 ### REGISTER NUMBER : 212221060010
 ### AIM: 
 To write a python program to implement Depth first Search. 
@@ -13,6 +13,7 @@ To write a python program to implement Depth first Search.
 7. Stop the program.
 ### Program:
 # Using a Python dictionary to act as an adjacency list
+```
 graph = {
 '5' : ['3','7'],
 '3' : ['2', '4'],
@@ -31,6 +32,7 @@ def dfs(visited, graph, node): #function for dfs
 # Driver Code
 print("Following is the Depth-First Search")
 dfs(visited, graph, '5')
+```
 
 ### Output:
 ![image](https://github.com/nithish143257/AI_Lab_2023-24/assets/113762839/83e9e310-1da9-4afa-86aa-b42245cd1e67)
